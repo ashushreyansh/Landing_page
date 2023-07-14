@@ -1,0 +1,156 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  --bs-gutter-x: 0rem;
+}
+div.main {
+  background-image: linear-gradient(
+      90deg,
+      rgba(218, 196, 196, 0.75),
+      rgba(31, 33, 35, 0.75)
+    ),
+    url("https://images.pexels.com/photos/4069289/pexels-photo-4069289.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-right: 30%;
+}
+div.logo {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/42234823-multor-logo.svg");
+  background-repeat: no-repeat;
+  height: 50px;
+  margin-bottom: 10%;
+}
+div.main h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+.first-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.form-control {
+  margin-bottom: 2%;
+}
+.top {
+  background-color: #152f2e;
+  color: whitesmoke;
+  padding: 10%;
+}
+ul {
+  text-align: left;
+}
+li.Benefit1 {
+  list-style-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/13b0f11a-multor-benefit1-icon.svg");
+}
+li.Benefit2 {
+  list-style-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/8ab92ea8-multor-benefit2-icon.svg");
+}
+li.Benefit3 {
+  list-style-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/c32dd90d-multor-benefit3-icon.svg");
+}
+.bottom {
+  margin: 10%;
+}
+.formList {
+  margin-bottom: 10%;
+}
+.vid {
+  margin-bottom: 20%;
+}
+.videoDiv {
+  background-image: linear-gradient(180deg, #a7f8f8, rgba(255, 255, 255, 0.75));
+}
+.videoHeading {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 5%;
+}
+.videoPara {
+  font-size: 18px;
+  font-weight: 200;
+  margin: 5%;
+}
+iframe {
+  height: 60vh;
+  width: 80vw;
+  margin-bottom: 5%;
+}
+.rating {
+  margin-bottom: 5%;
+}
+.star1 {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/dfb61e74-multor-testimonial1-stars.svg");
+  height: 10px;
+  background-repeat: no-repeat;
+}
+.left {
+  padding-right: 15%;
+}
+.reviewSection {
+  margin-bottom: 5%;
+}
+.review {
+  justify-content: left;
+  font-size: 22px;
+  text-align: left;
+}
+.reviewImg {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/52bdc545-multor-testimonial1-headshot_101e01e00000000000001o.jpg");
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  margin-left: 12px;
+}
+.reviewData {
+  text-align: left;
+}
+.features {
+  text-align: left;
+}
+.feature1Img {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/53ad3716-multor-feature1-image_108c04p00000000000001o.jpg");
+  height: 100%;
+  width: 250px;
+  background-repeat: no-repeat;
+}
+.card {
+  margin-bottom: 15%;
+}
+.aboutSection {
+  margin-bottom: 5%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutImg {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/df213ca0-multor-about_10cs0b400000000000001o.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.aboutData {
+  padding: 5%;
+}
+.footer {
+  background-color: #152f2e;
+  padding: 5%;
+}
+.logo2 {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/42234823-multor-logo.svg");
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  height: 50px;
+}
